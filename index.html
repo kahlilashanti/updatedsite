@@ -3,10 +3,16 @@
   <head>
     <meta charset="utf-8">
 
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/nav_animation/reset.css"> <!-- CSS reset -->
+	  <link rel="stylesheet" href="css/nav_animation/style.css"> <!-- Resource style -->
+	  <script src="javascript/nav_animation/modernizr.js"></script> <!-- Modernizr -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<meta name="keywords" content="Kahlil Ashanti, the tick, basic training, postsecret" />
-	<meta name="description" content="The Official Website of Kahlil Ashanti" />
-	<meta name="author" content="Kahlil Ashanti">
+  	<meta name="keywords" content="Kahlil Ashanti, the tick, basic training, postsecret" />
+  	<meta name="description" content="The Official Website of Kahlil Ashanti" />
+  	<meta name="author" content="Kahlil Ashanti">
 
 
     <title>Kahlil Ashanti</title>
@@ -21,8 +27,22 @@
 
   </head>
   <body>
+    <header>
+      <a class="cd-logo" href="#0"><img src="img/cd-logo.svg" alt="Logo"></a>
+    </header>
+
+    <nav>
+  		<ul class="cd-primary-nav">
+  			<li><a href="#0">The team</a></li>
+  			<li><a href="#0">Our services</a></li>
+  			<li><a href="#0">Our projects</a></li>
+  			<li><a href="#0">Start a project</a></li>
+  			<li><a href="#0">Join In</a></li>
+  			<li><a href="#0">Create an account</a></li>
+  		</ul>
+	</nav>
     <!-- navbar -->
-    <nav id="header" class="navbar navbar-fixed-top">
+    <!-- <nav id="header" class="navbar navbar-fixed-top">
           <div id="header-container" class="container navbar-container">
               <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -30,13 +50,13 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
-                  </button>
+                  </button> -->
                   <!-- <a id="brand" class="navbar-brand" href="#">Project name</a> -->
-              </div>
+              <!-- </div>
               <div id="navbar" class="collapse navbar-collapse">
                   <ul class="nav navbar-nav">
                       <li class="active"><a href="#">Home</a></li>
-                      <li><a href="#about">About</a></li>
+                      <li><a href="#gallery">Gallery</a></li>
                       <li><a href="#contact">Contact</a></li>
                   </ul>
                   <ul class="nav navbar-nav navbar-right social-network social-circle">
@@ -44,10 +64,10 @@
                     <li><a href="https://www.facebook.com/kahlilashanti" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="https://www.instagram.com/kahlil.ashanti/?hl=en" target="_blank" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
                     <li><a href="https://ca.linkedin.com/in/kahlilashanti" target="_blank" class="icoLinkedin" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-                  </ul>
-              </div><!-- /.nav-collapse -->
-          </div><!-- /.container -->
-      </nav><!-- /.navbar -->
+                  </ul> -->
+              <!-- </div><!-- /.nav-collapse --> -->
+          <!-- </div><!-- /.container --> -->
+      <!-- </nav><!-- /.navbar --> -->
     <!-- navbar -->
 
     <!-- video wall -->
@@ -91,32 +111,43 @@
     <!-- video wall -->
     <!-- gallery -->
     <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-  	<div id="wowslider-container1">
-    	<div class="ws_images"><ul>
-    		<li><img src="data1/images/family.jpg" alt="Family" title="Family" id="wows1_0"/></li>
-    		<li><img src="data1/images/showtime.jpg" alt="Basic Training" title="Basic Training" id="wows1_1"/></li>
-    		<li><img src="data1/images/1375017_10153385067920492_25418225_n.jpg" alt="Caesars Magical Empire" title="Caesars Magical Empire" id="wows1_2"/></li>
-    		<li><img src="data1/images/bugs.jpg" alt="Some of Kahlil's art" title="Some of Kahlil's art" id="wows1_3"/></li>
-    		<li><a href="http://wowslider.com"><img src="data1/images/208006_10150730772135492_810135_n.jpg" alt="http://wowslider.com/" title="Age 2 in Landstuhl Germany" id="wows1_4"/></a></li>
-    		<li><img src="data1/images/funnybone.jpg" alt="funnybone" title="funnybone" id="wows1_5"/></li>
-    	</ul></div>
-    	<div class="ws_bullets"><div>
-    		<a href="#" title="Family"><span><img src="data1/tooltips/family.jpg" alt="Family"/>1</span></a>
-    		<a href="#" title="Basic Training"><span><img src="data1/tooltips/showtime.jpg" alt="Basic Training"/>2</span></a>
-    		<a href="#" title="Caesars Magical Empire"><span><img src="data1/tooltips/1375017_10153385067920492_25418225_n.jpg" alt="Caesars Magical Empire"/>3</span></a>
-    		<a href="#" title="Some of Kahlil's art"><span><img src="data1/tooltips/bugs.jpg" alt="Some of Kahlil's art"/>4</span></a>
-    		<a href="#" title="Age 2, Landstuhl Germany"><span><img src="data1/tooltips/208006_10150730772135492_810135_n.jpg" alt="Age 2 in Landstuhl Germany"/>5</span></a>
-    		<a href="#" title="Age 15, Funny Bone Comedy Club Davenport Iowa"><span><img src="data1/tooltips/funnybone.jpg" alt="funnybone"/>6</span></a>
-    	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.7.1m</div>
-    	<div class="ws_shadow"></div>
-    	</div>
-  	<script type="text/javascript" src="engine1/wowslider.js"></script>
-  	<script type="text/javascript" src="engine1/script.js"></script>
+    <!-- <div id="gallery">
+      <div id="wowslider-container1">
+              <div class="ws_images"><ul>
+                <li><img src="data1/images/family.jpg" alt="Family" title="Family" id="wows1_0"/></li>
+                <li><img src="data1/images/showtime.jpg" alt="Basic Training" title="Basic Training" id="wows1_1"/></li>
+                <li><img src="data1/images/1375017_10153385067920492_25418225_n.jpg" alt="Caesars Magical Empire" title="Caesars Magical Empire" id="wows1_2"/></li>
+                <li><img src="data1/images/bugs.jpg" alt="Some of Kahlil's art" title="Some of Kahlil's art" id="wows1_3"/></li>
+                <li><img src="data1/images/208006_10150730772135492_810135_n.jpg" alt="http://wowslider.com/" title="Age 2 in Landstuhl Germany" id="wows1_4"/></li>
+                <li><img src="data1/images/funnybone.jpg" alt="Age 15 Funny Bone Comedy Club, Davenport Iowa" title="Age 15 Funny Bone Comedy Club, Davenport Iowa" id="wows1_5"/></li>
+              </ul></div>
+              <div class="ws_bullets"><div>
+                <a href="#" title="Family"><span><img src="data1/tooltips/family.jpg" alt="Family"/>1</span></a>
+                <a href="#" title="Basic Training"><span><img src="data1/tooltips/showtime.jpg" alt="Basic Training"/>2</span></a>
+                <a href="#" title="Caesars Magical Empire"><span><img src="data1/tooltips/1375017_10153385067920492_25418225_n.jpg" alt="Caesars Magical Empire"/>3</span></a>
+                <a href="#" title="Some of Kahlil's art"><span><img src="data1/tooltips/bugs.jpg" alt="Some of Kahlil's art"/>4</span></a>
+                <a href="#" title="Age 2 in Landstuhl Germany"><span><img src="data1/tooltips/208006_10150730772135492_810135_n.jpg" alt="Age 2 in Landstuhl Germany"/>5</span></a>
+                <a href="#" title="Age 15 Funny Bone Comedy Club, Davenport Iowa"><span><img src="data1/tooltips/funnybone.jpg" alt="Age 15 Funny Bone Comedy Club, Davenport Iowa"/>6</span></a> -->
+              <!-- </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.7.1m</div> -->
+              <!-- <div class="ws_shadow"></div> -->
+      <!-- </div>
+    </div> -->
+  	<!-- <script type="text/javascript" src="engine1/wowslider.js"></script>
+  	<script type="text/javascript" src="engine1/script.js"></script> -->
 	<!-- End WOWSlider.com BODY section -->
     <!-- gallery -->
 
 
 
+      <div class="cd-overlay-nav">
+		      <span></span>
+	   </div> <!-- cd-overlay-nav -->
+
+  	<div class="cd-overlay-content">
+  		  <span></span>
+  	</div> <!-- cd-overlay-content -->
+
+      <a href="#0" class="cd-nav-trigger">Menu<span class="cd-icon"></span></a>
 
     <!-- JQUERY -->
     <script
@@ -130,6 +161,8 @@
     <!-- BOOTSTRAP -->
 
     <!-- Javascript -->
+    <script src="javascript/nav_animation/velocity.min.js"></script>
+    <script src="javascript/nav_animation/main.js"></script> <!-- Resource jQuery -->
     <script type="text/javascript" src="./javascript/file.js"></script>
     <!-- Javascript -->
   </body>
