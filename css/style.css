@@ -8,6 +8,54 @@ body {
     overflow-x: hidden; /* Prevent scroll on narrow devices */
 }
 
+/*typed.js*/
+.element{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: perspective(1px) translateY(-50%, -50%);
+  font-weight: 40px;
+  color: white;
+}
+
+/*.typed-cursor{
+  color: white;
+	opacity: 1;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+@keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-moz-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}*/
+/*typed.js*/
+
+/*pic*/
+.img {
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://app.box.com/shared/static/g6duk21pkb6yx3s6dut6yg3gcpenwy1g.jpg");
+  background-attachment: fixed;
+
+}
+
+/*pic*/
+
 /*video wall*/
 .nopadding {
   padding: 2px !important;
@@ -33,7 +81,7 @@ body {
 }
 
 .navbar-container {
-    padding: 20px 0 20px 0;
+    padding: 0px 10 0px 0;
 }
 
 .navbar.navbar-fixed-top.fixed-theme {
