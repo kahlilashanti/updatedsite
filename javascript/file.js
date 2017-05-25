@@ -7,3 +7,7 @@ document.addEventListener('DOMContentLoaded', function(){
     showCursor: true
   });
 });
+
+// $('.enter_link').click(function() {
+//         $(this).parent().fadeOut(10000);
+//  });

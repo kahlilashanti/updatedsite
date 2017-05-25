@@ -2,12 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 
     <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="css/nav_animation/reset.css"> <!-- CSS reset -->
 	  <link rel="stylesheet" href="css/nav_animation/style.css"> <!-- Resource style -->
 	  <script src="javascript/nav_animation/modernizr.js"></script> <!-- Modernizr -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"><!--animate.css-->
 
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   	<meta name="keywords" content="Kahlil Ashanti, the tick, basic training, postsecret" />
@@ -33,53 +35,32 @@
 
     <nav>
   		<ul class="cd-primary-nav">
-        <li><a href="#"  target="_blank" class="icoHome" title="Home"><i class="fa fa-home fa-3x"></i></a></li>
-  			<li><a href="#"  target="_blank" class="icoYoutube" title="YouTube"><i class="fa fa-youtube-play fa-3x"></i></a></li>
-  			<li><a href="#"  target="_blank" class="icoGithub" title="Github"><i class="fa fa-github-square fa-3x"></i></a></li>
+        <li><a href="#contactModal" role="button" data-toggle="modal" title="Contact"><i class="fa fa-plane fa-3x"></i><span class="network-name"></span></a></li>
+        <!-- <li><a href="#"  target="_blank" class="icoHome" title="Home"><i class="fa fa-home fa-3x"></i></a></li> -->
+  			<li><a href="http://stage-presence.thinkific.com/courses/find-your-voice"  target="_blank" class="icoCourses" title="Courses"><i class="fa fa-graduation-cap fa-3x"></i></a></li>
+  			<li><a href="https://github.com/kahlilashanti"  target="_blank" class="icoGithub" title="Github"><i class="fa fa-github-square fa-3x"></i></a></li>
         <li><a href="https://twitter.com/kahlilashanti"  target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter fa-3x"></i></a></li>
         <li><a href="https://www.facebook.com/kahlilashanti" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook fa-3x"></i></a></li>
         <li><a href="https://www.instagram.com/kahlil.ashanti/?hl=en" target="_blank" class="icoInstagram" title="Instagram"><i class="fa fa-instagram fa-3x"></i></a></li>
         <li><a href="https://ca.linkedin.com/in/kahlilashanti" target="_blank" class="icoLinkedin" title="LinkedIn"><i class="fa fa-linkedin fa-3x"></i></a></li>
   		</ul>
 	</nav>
-    <!-- navbar -->
-    <!-- <nav id="header" class="navbar navbar-fixed-top">
-          <div id="header-container" class="container navbar-container">
-              <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                  </button> -->
-                  <!-- <a id="brand" class="navbar-brand" href="#">Project name</a> -->
-              <!-- </div>
-              <div id="navbar" class="collapse navbar-collapse">
-                  <ul class="nav navbar-nav">
-                      <li class="active"><a href="#">Home</a></li>
-                      <li><a href="#gallery">Gallery</a></li>
-                      <li><a href="#contact">Contact</a></li>
-                  </ul>
-                  <ul class="nav navbar-nav navbar-right social-network social-circle">
-                    <li><a href="https://twitter.com/kahlilashanti"  target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://www.facebook.com/kahlilashanti" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/kahlil.ashanti/?hl=en" target="_blank" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="https://ca.linkedin.com/in/kahlilashanti" target="_blank" class="icoLinkedin" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-                  </ul> -->
-              <!-- </div><!-- /.nav-collapse -->
-          <!-- </div><!-- /.container -->
-      <!-- </nav><!-- /.navbar -->
-    <!-- navbar -->
 
-    <div class="img">
+    <div class="img-back">
       <div class="element">
         <span class="typed-cursor"></span>
       </div>
     </div>
 
+    <!-- splash page -->
+    <!-- <div id="splashscreen">
+      <h2>KAHLIL ASHANTI</h2>
+      Take a look at our new products, blablabla
+      <img src="https://app.box.com/shared/static/wlimus5xjbq73o1g6cf9xz4ob5j6mhbe.jpg" />
 
-
-
+      <a href="#" class="enter_link">Enter the website</a>
+    </div> -->
+    <!-- splash page -->
 
     <!-- video wall -->
     <div class="video_container">
@@ -112,8 +93,8 @@
 
           <div class="col-sm-6 nopadding">
             <div class="embed-responsive embed-responsive-16by9">
-              <!-- budweiser -->
-              <iframe src="https://player.vimeo.com/video/144996891" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <!-- TEDxSFU -->
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Lk0Y98eT-nE" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
 
@@ -121,7 +102,69 @@
     </div>
     <!-- video wall -->
 
+    <!-- contact modal -->
 
+
+  <!-- Modal -->
+        <div id="contactModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title">Thanks for visiting.  Let's continue the conversation...</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="containter">
+                            <div class="row">
+                                <form class="form-horizontal" name="commentform" method="post" action="send_form_email.php">
+                                    <div class="col-xs-8">
+                                        <div class="form-group">
+                                            <label for="InputName" class="col-lg-4 control-label">Your Full Name</label>
+                                            <div class="col-lg-8">
+                                                <input type="text" class="form-control" name="first_name" id="first_name"  required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="InputEmail" class="col-lg-4 control-label">Your Email</label>
+                                            <div class="col-lg-8">
+                                                <input type="email" class="form-control" id="email" name="email"  required  >
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="InputMessage" class="col-lg-4 control-label">What It Is?</label>
+                                            <div class="col-lg-8">
+                                                <textarea name="comments" id="comments" class="form-control" rows="5" required></textarea>
+                                            </div>
+                                        </div>
+
+                                        <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
+                                    </div>
+                                </form>
+                                <hr class="featurette-divider hidden-lg">
+                                <div class="col-xs-4 text-right ">
+                                    <address>
+                                        <h3>Legal Representation</h3>
+                                        <h3>Bob Myman</h3>
+                                        <p class="lead"><a href="http://www.mymangreenspan.com/" target="_blank">Myman Greenspan<br>
+                                            </a><br>
+                                        <h3>Film/TV/Commercials (Canada)</h3>
+                                        <h3>Elena Kirschner/Jen Johnston</h3>
+                                        <p class="lead"><a href="http://red-mgmt.com/" target="_blank">Red Management<br>
+                                          <h3>604-998-8077</h3>
+                                            </a><br>
+
+                                    </address>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div><!-- End of Modal body -->
+                </div><!-- End of Modal content -->
+            </div><!-- End of Modal dialog -->
+        </div><!-- End of Modal -->
+
+    <!-- contact modal -->
 
 
       <div class="cd-overlay-nav">

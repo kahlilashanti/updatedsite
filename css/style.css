@@ -11,15 +11,27 @@ body {
 /*typed.js*/
 .element{
   position: relative;
-  top: 50%;
-  left: 50%;
+  top: 80%;
+  left: 60%;
   margin-right: -50%;
-  transform: perspective(1px) translateY(-50%, -50%);
+  transform: perspective(1px) translateY(-60%, -60%);
   font-weight: 40px;
   font-family: courier;
   font-size: 50px;
   color: white;
 }
+
+/*splash page*/
+#splashscreen {
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+    font: white;
+    background-color:black;
+}
+/*splash page*/
 
 
 
@@ -48,12 +60,12 @@ body {
 /*typed.js*/
 
 /*pic*/
-.img {
+.img-back {
   height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://app.box.com/shared/static/g6duk21pkb6yx3s6dut6yg3gcpenwy1g.jpg");
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://app.box.com/shared/static/cr2n2btk90dgis8ct7r4qh41ybwrs3qu.jpg");
   background-attachment: fixed;
 
 }
@@ -74,8 +86,12 @@ body {
 }
 /*video wall*/
 
-/*navbar styling*/
+.content {
+    padding-top: 30px;
+}
 
+
+/*navbar styling*/
 
 .navbar-brand {
     font-size: 24px;
