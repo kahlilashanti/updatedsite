@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', function(){
   Typed.new('.element', {
-    strings: ["Actor", "Web Developer", "Keynote Speaker", "Entrepreneur","Writer"],
+    strings: ["Actor", "Web Developer", "Keynote", "Entrepreneur","Writer"],
     typeSpeed: 100,
     loop: true,
     showCursor: true
