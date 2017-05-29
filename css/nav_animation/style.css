@@ -34,6 +34,31 @@ html, body {
   height: 100%;
 }
 
+/*arrow*/
+.arrow {
+    position: absolute;
+    margin: auto;
+    bottom: 90%;
+    left: 76%;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    line-height: 40px;
+    -webkit-animation: bounce 3s infinite ease-in-out;
+    color: white;
+    top: 18px;
+    right: 0%;
+    height: 44px;
+    width: 44px;
+    z-index: 5;
+    @-webkit-keyframes bounce {
+    	0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
+        40%  { -webkit-transform: translateY(-20px); }
+    	80% { -webkit-transform: translateY(-10px); }
+    }
+}
+/*arrow*/
+
 header {
   z-index: 3;
 }
