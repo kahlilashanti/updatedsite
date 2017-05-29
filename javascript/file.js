@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function(){
   Typed.new('.element', {
     strings: ["Actor", "Hacker", "Speaker", "Entrepreneur","Writer"],
@@ -7,7 +6,3 @@ document.addEventListener('DOMContentLoaded', function(){
     showCursor: true
   });
 });
-
-// $('.enter_link').click(function() {
-//         $(this).parent().fadeOut(10000);
-//  });

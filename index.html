@@ -11,14 +11,17 @@
 	  <script src="javascript/nav_animation/modernizr.js"></script> <!-- Modernizr -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"><!--animate.css-->
 
+
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  	<meta name="keywords" content="Kahlil Ashanti, the tick, basic training, postsecret" />
+  	<meta name="keywords" content="Kahlil Ashanti, amazon, the tick, basic training, postsecret" />
   	<meta name="description" content="The Official Website of Kahlil Ashanti" />
   	<meta name="author" content="Kahlil Ashanti">
 
 
     <title>Kahlil Ashanti</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link href="css/rotating-card.css" rel="stylesheet" />
+    <link href='css/bootstrap.css' rel='stylesheet' />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -26,7 +29,7 @@
   	<!-- <link rel="stylesheet" type="text/css" href="engine1/style.css" />
   	<script type="text/javascript" src="engine1/jquery.js"></script> -->
 	 <!-- End WOWSlider.com HEAD section -->
-
+   <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
   </head>
   <body>
     <header>
@@ -99,61 +102,83 @@
 
   <!-- about -->
 
-  <div class="container bio">
+  <div class="container">
     <div class="row">
-      <div class="col-xs-18 col-sm-6 col-md-3">
-        <div class="thumbnail">
-          <img src="./css/img2/tickman.jpeg">
-            <div class="caption">
-              <h4>Actor</h4>
-              <p>Currently appearing in <a href="https://deadline.com/2017/04/the-tick-premiere-date-amazon-1202077678/" target="_blank">Amazon's 'The Tick' television series</a> in a recurring role, Kahlil began his career in stand-up comedy, later touring the world performing for troops in war zones as a member of an elite US Air Force performance group.</p>
-              <a href="https://www.amazon.com/The-Tick/dp/B01J776HVW" class="btn btn-info btn-xs" role="button" target="_blank">Watch</a> <a href="https://www.youtube.com/watch?v=iZcz5MXK-Lc&t=31s" class="btn btn-default btn-xs" role="button" target="_blank">Weirdest Interview. Ever.</a>
-          </div>
-        </div>
-      </div>
+        <h1 class="title">
+            This is our awesome team
+            <br>
+            <small>Present your team in an interesting way</small>
+        </h1>
+        <div class="col-sm-10 col-sm-offset-1">
+         <div class="col-md-4 col-sm-6">
+             <div class="card-container">
+                <div class="card">
+                    <div class="front">
+                        <div class="cover">
+                            <img src="images/rotating_card_thumb2.png"/>
+                        </div>
+                        <div class="user">
+                            <img class="img-circle" src="images/rotating_card_profile3.png"/>
+                        </div>
+                        <div class="content">
+                            <div class="main">
+                                <h3 class="name">John Marvel</h3>
+                                <p class="profession">CEO</p>
+                                <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
+                            </div>
+                            <div class="footer">
+                                <i class="fa fa-mail-forward"></i> Auto Rotation
+                            </div>
+                        </div>
+                    </div> <!-- end front panel -->
+                    <div class="back">
+                        <div class="header">
+                            <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                        </div>
+                        <div class="content">
+                            <div class="main">
+                                <h4 class="text-center">Job Description</h4>
+                                <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
 
-      <div class="col-xs-18 col-sm-6 col-md-3">
-        <div class="thumbnail">
-          <img src="./css/img2/coding.jpg">
-            <div class="caption">
-              <h4>Hacker</h4>
-              <p>A self confessed back-end 'Javascript junkie' also skilled in React, Rails, HTML5 + CSS, Kahlil has <a href="https://github.com/kahlilashanti" target="_blank">built and shipped several projects</a>, paying his dues in a new and exciting industry. He's recently joined <a href="https://www.thinkific.com/" target="_blank">Thinkific </a>on their tech team.</p>
-              <a href="http://codecore.ca/" class="btn btn-info btn-xs" role="button" target="_blank">Proud Grad-Full Stack!</a>
-          </div>
-        </div>
-      </div>
+                                <div class="stats-container">
+                                    <div class="stats">
+                                        <h4>235</h4>
+                                        <p>
+                                            Followers
+                                        </p>
+                                    </div>
+                                    <div class="stats">
+                                        <h4>114</h4>
+                                        <p>
+                                            Following
+                                        </p>
+                                    </div>
+                                    <div class="stats">
+                                        <h4>35</h4>
+                                        <p>
+                                            Projects
+                                        </p>
+                                    </div>
+                                </div>
 
-      <div class="col-xs-18 col-sm-6 col-md-3">
-        <div class="thumbnail">
-          <img src="./css/img2/livenation.png">
-            <div class="caption">
-              <h4>Biz Dev</h4>
-              <p>Kahlil's prowess as a speaker led to business development roles at startups sitting at the intersection of entertainment and technology.  He has negotiated and sourced deals between startups and companies like Disney, LiveNation and Sony.</p>
-              <a href="https://www.indiloop.com/fearlessremix" class="btn btn-info btn-xs" role="button" target="_blank">Sample Promotion</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-xs-18 col-sm-6 col-md-3">
-        <div class="thumbnail">
-          <img src="./css/img2/NYTcriticspick.jpg" height="500" width="250">
-            <div class="caption">
-              <h4>Writer</h4>
-              <p>Kahlil is an award winning writer and producer, earning worldwide accolades and setting ticket sales records for his Broaday touring solo show <a href="http://kahlilashanti.com/basictraining/" target="_blank">Basic Training</a> and <a href="https://vimeo.com/195356192" target="_blank">PostSecret: The Show.</a></p>
-              <a href="http://postsecret.com/" class="btn btn-info btn-xs" role="button" target="_blank">Visit PostSecret</a> <a href="https://www.ted.com/talks/frank_warren_half_a_million_secrets" class="btn btn-default btn-xs" role="button" target="_blank">Viral TED Talk</a>
-          </div>
-        </div>
-      </div>
-
-
-
-</div><!--/row-->
-</div><!--/container -->
+                            </div>
+                        </div>
+                        <div class="footer">
+                            <div class="social-links text-center">
+                                <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                            </div>
+                        </div>
+                    </div> <!-- end back panel -->
+                </div> <!-- end card -->
+            </div> <!-- end card-container -->
+        </div> <!-- end col sm 3 -->
 
   <!-- about -->
 
   <!-- footer -->
-  <div class="footer">Copyright &copy; 2017 Ashanti Enterprises Inc</div>
+  <!-- <div class="footer">Copyright &copy; 2017 Ashanti Enterprises Inc</div> -->
   <!-- footer -->
 
   <!-- contact modal -->
@@ -239,6 +264,8 @@
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
     <!-- JQUERY -->
+
+
 
     <!-- BOOTSTRAP -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
