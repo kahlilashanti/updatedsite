@@ -2,6 +2,7 @@ body {
   background-color: #222;
   color: #ccc;
   /*padding-top: 100px;*/
+  margin: 0px;
 }
 html,
 body {
@@ -102,6 +103,7 @@ body {
 /*video wall*/
 
 /*about*/
+
 .card-flip {
   perspective: 1000px;
   &:hover .flip,
@@ -154,6 +156,7 @@ body {
   bottom: 0;
   left: 0;
   padding: 1rem;
+  width: 100%;
   background-color: #bfbfbf;
   text-align: center;
 }
