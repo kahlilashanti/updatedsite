@@ -6,3 +6,12 @@ document.addEventListener('DOMContentLoaded', function(){
     showCursor: true
   });
 });
+
+// perfectscrollbar
+var container = document.getElementById('container');
+Ps.initialize(container, {
+  wheelSpeed: 2,
+  wheelPropagation: true,
+  minScrollbarLength: 20
+});
+// perfectscrollbar
