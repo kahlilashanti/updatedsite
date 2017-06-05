@@ -35,7 +35,7 @@ html, body {
 }
 
 /*arrow*/
-.arrow {
+/*.arrow {
     position: absolute;
     margin: auto;
     bottom: 90%;
@@ -56,7 +56,7 @@ html, body {
         40%  { -webkit-transform: translateY(-20px); }
     	80% { -webkit-transform: translateY(-10px); }
     }
-}
+}*/
 /*arrow*/
 
 header {
@@ -69,8 +69,8 @@ header {
 }
 
 .cd-logo {
-  top: 28px;
-  left: 5%;
+  top: 18px;
+  left: 0%;
 }
 .cd-logo img {
   display: block;

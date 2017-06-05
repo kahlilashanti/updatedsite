@@ -33,7 +33,7 @@
   </head>
   <body>
     <header>
-      <!-- <a class="cd-logo" href="#0"><img src="img/cd-logo.svg" alt="Logo"></a> -->
+      <!-- <a class="cd-logo" href="#0"><img src="./css/img2/swissarmy.png" alt="Logo" height="20%" width="20%"></a> -->
     </header>
 
 
@@ -102,14 +102,15 @@
 <br>
 <br>
   <!-- about -->
-
-  <div class="container card_container">
+<div class="testimonial">
+  <h1 class="title">
+    'He's an Entrepreneurial Swiss Army Knife...'
+    <br>
+    <small>Lowell Mate, VP of Global Co-Productions, Disney</small>
+  </h1>
+</div>
+  <div class="container" id="card_container">
     <div class="row">
-        <h1 class="title">
-            'He's an Entrepreneurial Swiss Army Knife...'
-            <br>
-            <small>Lowell Mate, VP of Global Co-Productions, Disney</small>
-        </h1>
         <div class="col-sm-10 col-sm-offset-1">
          <div class="col-md-3 col-sm-6">
              <div class="card-container">
@@ -125,7 +126,7 @@
                             <div class="main">
                                 <h3 class="name">Actor</h3>
                                 <p class="profession"></p>
-                                <p class="text-center">Starring in the Amazon Studio series 'The Tick' alongside Griffin Newman (Draft Day), Peter Serafinowicz (Guardians of the Galaxy) and Jackie Earle Haley (Lincoln)</p>
+                                <p class="text-center">Starring in the Amazon Studio series 'The Tick' alongside Griffin Newman (Draft Day), Peter Serafinowicz (Guardians of the Galaxy) and Jackie Earle Haley (Lincoln).</p>
                             </div>
 
                         </div>
@@ -196,13 +197,13 @@
                    </div> <!-- end front panel -->
                    <div class="back">
                        <div class="header">
-                           <h5 class="motto">"Everyone has a secret that could break your heart."</h5>
+                           <h5 class="motto">"Everyone has a secret that could break your heart." @postsecret</h5>
                        </div>
                        <div class="content">
                            <div class="main">
                                <h4 class="text-center"></h4>
                                <p class="text-center">Kahlil is an award winning writer and producer, earning worldwide accolades and setting ticket sales records for his Broaday touring and Edinburgh Fringe sellout solo show <a href="http://kahlilashanti.com/basictraining/" target="_blank">Basic Training</a> and <a href="https://vimeo.com/195356192" target="_blank">co-creating PostSecret: The Show.</a></p>
-                               <p class="text-center"><button type="button" class="btn btn-success"><a href="https://youtu.be/iZcz5MXK-Lc" target="_blank" class="tick">WEIRD Fox Interview</a></button></p>
+                               <p class="text-center"><button type="button" class="btn btn-success"><a href="https://youtu.be/iZcz5MXK-Lc" target="_blank" class="tick">(weird) Fox Interview</a></button></p>
                                <!-- <div class="stats-container">
                                    <div class="stats">
                                        <h4>235</h4>
@@ -266,7 +267,9 @@
                       <div class="content">
                           <div class="main">
                               <h4 class="text-center"></h4>
-                              <p class="text-center">An enthusiastic 'Javascript junkie' also skilled in React, Rails, HTML5 and CSS, Kahlil has <a href="https://github.com/kahlilashanti" target="_blank">built and shipped several projects</a>, including websites and apps for clients, while paying his dues in a new and exciting industry.</p>
+                              <p class="text-center">An enthusiastic 'Javascript junkie' also skilled in React, Rails, HTML5 and CSS, Kahlil has <a href="https://github.com/kahlilashanti" target="_blank">built and shipped several projects</a>, including websites and apps for paying clients.</p>
+                              <p class="text-center"><button type="button" class="btn btn-success"><a href="http://mariafabiano.ca/" class="tick" target="_blank">Work Sample</a></button></p>
+
                               <!-- <div class="stats-container">
                                   <div class="stats">
                                       <h4>235</h4>
@@ -317,20 +320,20 @@
                           <div class="main">
                               <h3 class="name">Business Development</h3>
                               <p class="profession">+ Guest Speaker</p>
-                              <p class="text-center">Hosted panels and featured at SXSW, TEDx, BCLC, IEBA and many more.  He also offers private coaching.</p>
+                              <p class="text-center">A gifted communicator, he has moderated panels and been featured at SXSW, TEDx, NASDAQ and many more.</p>
+
                           </div>
 
                       </div>
                   </div> <!-- end front panel -->
                   <div class="back">
                       <div class="header">
-                          <h5 class="motto">"The thing is...we think we have more time..."</h5>
+                          <h5 class="motto">"The thing is...we think we have more time..." @postsecret</h5>
                       </div>
                       <div class="content">
                           <div class="main">
                               <h4 class="text-center"></h4>
-                              <p class="text-center">Kahlil's prowess as a speaker led to business development roles at startups sitting at the intersection of entertainment and technology.  He has negotiated and created deals between startups and companies like Disney, LiveNation and Sony.</p>
-
+                              <p class="text-center">Featured in the NYT and WSJ bestseller <a href="https://www.amazon.com/dp/B000JMKTG4/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1" target="_blank">Mavericks at Work</a> for his imaginative and unconventional business practices, his prowess as an entrepreneur led to business development roles at startups sitting at the intersection of entertainment and technology, where he secured deals with Disney, LiveNation, Vans and Sony.</p>
                               <!-- <div class="stats-container">
                                   <div class="stats">
                                       <h4>235</h4>
@@ -378,10 +381,6 @@
 
   <!-- about -->
 
-  <!-- footer -->
-  <div class="footer">Copyright &copy; 2017 Ashanti Enterprises Inc</div>
-  <!-- footer -->
-
   <!-- contact modal -->
         <div id="contactModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
@@ -396,7 +395,7 @@
                                 <form class="form-horizontal" name="commentform" method="post" action="send_form_email.php">
                                     <div class="col-xs-8">
                                         <div class="form-group">
-                                            <label for="InputName" class="col-lg-4 control-label">Your Full Name</label>
+                                            <label for="InputName" class="col-lg-4 control-label">First and Last Name</label>
                                             <div class="col-lg-8">
                                                 <input type="text" class="form-control" name="first_name" id="first_name"  required>
                                             </div>
@@ -408,7 +407,7 @@
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label for="InputMessage" class="col-lg-4 control-label">What It Is?</label>
+                                            <label for="InputMessage" class="col-lg-4 control-label">Your Message (and favorite food)</label>
                                             <div class="col-lg-8">
                                                 <textarea name="comments" id="comments" class="form-control" rows="5" required></textarea>
                                             </div>
@@ -423,12 +422,15 @@
                                         <h3>Legal Representation</h3>
                                         <h3>Bob Myman</h3>
                                         <p class="lead"><a href="http://www.mymangreenspan.com/" target="_blank">Myman Greenspan<br>
-                                            </a><br>
+                                            </a>
+                                            <h3>(310) 231-0800</h3>
+                                            <br>
                                         <h3>Film/TV/Commercials (Canada)</h3>
                                         <h3>Elena Kirschner/Jen Johnston</h3>
                                         <p class="lead"><a href="http://red-mgmt.com/" target="_blank">Red Management<br>
-                                          <h3>604-998-8077</h3>
-                                            </a><br>
+                                            </a>
+                                            <h3>(604) 998-8077</h3>
+                                            <br>
 
                                     </address>
                                 </div>
@@ -441,7 +443,10 @@
             </div><!-- End of Modal dialog -->
         </div><!-- End of Modal -->
     <!-- contact modal -->
-    <div class="arrow">&#10140;</div>
+
+    <!-- bouncing arrow -->
+    <!-- <div class="arrow">&#10140;</div> -->
+    <!-- bouncing arrow -->
 
       <div class="cd-overlay-nav">
 		      <span></span>
@@ -477,5 +482,6 @@
     <script src="javascript/nav_animation/main.js"></script> <!-- Resource jQuery -->
     <script type="text/javascript" src="./javascript/file.js"></script>
     <!-- Javascript -->
+    <div class="footer">Copyright &copy; 2017 Ashanti Enterprises, Inc. | Site by Kahlil Ashanti</div>
   </body>
 </html>
