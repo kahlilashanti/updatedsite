@@ -3,7 +3,7 @@ if(isset($_POST['email'])) {
 
    // EDIT THE 2 LINES BELOW AS REQUIRED
    $email_to = "kahlil.ashanti@gmail.com";
-   $email_subject = "Email subject";
+   $email_subject = "Enquiry";
 
 
 
@@ -35,7 +35,7 @@ if(isset($_POST['email'])) {
  if(strlen($error_message) > 0) {
    died($error_message);
  }
-   $email_message = "Form details below.\n\n";
+   $email_message = "Details below.\n\n";
 
    function clean_string($string) {
      $bad = array("content-type","bcc:","to:","cc:","href");
